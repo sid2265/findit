@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:gravity="center"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:src="@drawable/iconimg"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FindIt!"
+            android:textSize="50dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="@color/white"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email id"
+            android:textSize="30dp"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:padding="15dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/text_bg"
+            android:inputType="textEmailAddress"
+            android:id="@+id/email_input"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:textSize="30dp"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:padding="15dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/text_bg"
+            android:inputType="textPassword"
+            android:id="@+id/password_input2"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SIGNUP"
+            android:textSize="30dp"
+            android:layout_marginTop="30dp"
+            android:padding="15dp"
+            android:id="@+id/signup2_btn"/>
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
